@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/portifolio/static/js/main.4a6d9cad.js",
-    "static/media/wip.gif": "/portifolio/static/media/wip.2866fd6ab413c19c3309.gif",
-    "static/media/logo.svg": "/portifolio/static/media/logo.4167b8a12b0e2dbe05ba919e401b367b.svg",
-    "static/media/twitter.svg": "/portifolio/static/media/twitter.32c68c7329167b64ad8409431a3e1a96.svg",
-    "index.html": "/portifolio/index.html",
-    "static/media/linkedin.svg": "/portifolio/static/media/linkedin.ecadf8ce2ab9f31dd0278e1b5c8cc7ca.svg",
-    "main.4a6d9cad.js.map": "/portifolio/static/js/main.4a6d9cad.js.map"
+    "main.js": "/fabricio-oliveira.github.io/static/js/main.3e205fa5.js",
+    "static/media/wip.gif": "/fabricio-oliveira.github.io/static/media/wip.2866fd6ab413c19c3309.gif",
+    "static/media/logo.svg": "/fabricio-oliveira.github.io/static/media/logo.82f7896fee7d42d8fc4016f0f6dd5d9a.svg",
+    "static/media/twitter.svg": "/fabricio-oliveira.github.io/static/media/twitter.32c68c7329167b64ad8409431a3e1a96.svg",
+    "index.html": "/fabricio-oliveira.github.io/index.html",
+    "static/media/linkedin.svg": "/fabricio-oliveira.github.io/static/media/linkedin.ecadf8ce2ab9f31dd0278e1b5c8cc7ca.svg",
+    "main.3e205fa5.js.map": "/fabricio-oliveira.github.io/static/js/main.3e205fa5.js.map"
   },
   "entrypoints": [
-    "static/js/main.4a6d9cad.js"
+    "static/js/main.3e205fa5.js"
   ]
 }
