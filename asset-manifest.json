@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/fabricio-oliveira.github.io/static/js/main.3e205fa5.js",
+    "main.js": "/fabricio-oliveira.github.io/static/js/main.e1bea2cf.js",
     "static/media/wip.gif": "/fabricio-oliveira.github.io/static/media/wip.2866fd6ab413c19c3309.gif",
     "static/media/logo.svg": "/fabricio-oliveira.github.io/static/media/logo.82f7896fee7d42d8fc4016f0f6dd5d9a.svg",
     "static/media/twitter.svg": "/fabricio-oliveira.github.io/static/media/twitter.32c68c7329167b64ad8409431a3e1a96.svg",
     "index.html": "/fabricio-oliveira.github.io/index.html",
     "static/media/linkedin.svg": "/fabricio-oliveira.github.io/static/media/linkedin.ecadf8ce2ab9f31dd0278e1b5c8cc7ca.svg",
-    "main.3e205fa5.js.map": "/fabricio-oliveira.github.io/static/js/main.3e205fa5.js.map"
+    "main.e1bea2cf.js.map": "/fabricio-oliveira.github.io/static/js/main.e1bea2cf.js.map"
   },
   "entrypoints": [
-    "static/js/main.3e205fa5.js"
+    "static/js/main.e1bea2cf.js"
   ]
 }
