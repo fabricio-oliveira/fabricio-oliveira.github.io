@@ -48,4 +48,4 @@ yarn serve
 
 ### License
 
-[MIT](https://github.com/realstoman/vuejs-tailwindcss-portfolio/blob/main/LICENSE)
+[MIT](https://github.com/fabricio-oliveira/fabricio-oliveira.github.io/blob/new-portfolio-version/LICENSE)
