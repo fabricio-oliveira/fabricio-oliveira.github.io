@@ -13,12 +13,6 @@ export const socialLinks = [
 	},
 	{
 		id: 3,
-		name: 'Twitter',
-		icon: 'twitter',
-		url: 'https://twitter.com/fabricioque',
-	},
-	{
-		id: 4,
 		name: 'LinkedIn',
 		icon: 'linkedin',
 		url: 'https://www.linkedin.com/in/fabricio-oliveira-b2b88873',
