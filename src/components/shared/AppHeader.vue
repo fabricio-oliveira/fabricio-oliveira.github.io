@@ -43,6 +43,11 @@ export default {
 					value: 'infrastructure',
 					name: 'Infrastructure',
 				},
+				{
+					id: 6,
+					value: 'code_snippet',
+					name: 'Code snippet',
+				}
 			],
 		};
 	},
