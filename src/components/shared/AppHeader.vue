@@ -30,13 +30,18 @@ export default {
 				},
 				{
 					id: 3,
-					value: 'ui-ux',
-					name: 'UI/UX Design',
+					value: 'library',
+					name: 'Library',
 				},
 				{
 					id: 4,
-					value: 'branding',
-					name: 'Branding & Anim',
+					value: 'api',
+					name: 'API',
+				},
+				{
+					id: 5,
+					value: 'infrastructure',
+					name: 'Infrastructure',
 				},
 			],
 		};
