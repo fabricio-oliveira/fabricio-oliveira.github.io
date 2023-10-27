@@ -6,12 +6,22 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						"I'm a seasoned Fullstack Engineer with over 12 years of experience in many industries such as oil and gas, broadcast media, payment, and e-commerce. I have a proven track record in designing, testing, and maintaining complex software systems. My expertise spans across multiple tools and technologies, including Elasticsearch, Golang, Kafka, JavaScript, Python, PostgreSQL, AWS, Docker, and GCP.",
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						"What sets me apart is not only my extensive experience in back-end and infrastructure development but also my good knowledge in front-end and mobile development. This well-rounded skill set allows me to contribute effectively throughout the entire software development lifecycle.",
+				},
+				{
+					id: 3,
+					bio:
+						"I thrive in Agile environments, where I have successfully managed projects and collaborated as part of highly productive teams. I am comfortable working in fast-paced, dynamic settings, and I have a strong focus on delivering high-quality results within strict deadlines.",
+				},
+				{
+					id: 4,
+					bio:
+						"I am passionate about tackling new challenges and driving innovation. With my strong problem-solving abilities and dedication to continuous learning.",
 				},
 			],
 		};
