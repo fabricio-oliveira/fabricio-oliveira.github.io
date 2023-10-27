@@ -2,8 +2,7 @@
 import feather from 'feather-icons';
 
 export default {
-	props: ['projectInfo'],
-
+	props: ['infos'],
 	mounted() {
 		feather.replace();
 	},
@@ -22,11 +21,11 @@ export default {
 				<p
 					class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2"
 				>
-					{{ projectInfo.clientHeading }}
+					{{ infos.clientHeading }}
 				</p>
 				<ul class="leading-loose">
 					<li
-						v-for="info in projectInfo.companyInfos"
+						v-for="info in infos.companyInfos"
 						:key="info"
 						class="font-general-regular text-ternary-dark dark:text-ternary-light"
 					>
@@ -50,12 +49,12 @@ export default {
 				<p
 					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
 				>
-					{{ projectInfo.objectivesHeading }}
+					{{ infos.objectivesHeading }}
 				</p>
 				<p
 					class="font-general-regular text-primary-dark dark:text-ternary-light"
 				>
-					{{ projectInfo.objectivesDetails }}
+					{{ infos.objectivesDetails }}
 				</p>
 			</div>
 
@@ -64,12 +63,12 @@ export default {
 				<p
 					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
 				>
-					{{ projectInfo.technologies[0].title }}
+					{{ infos.technologies[0].title }}
 				</p>
 				<p
 					class="font-general-regular text-primary-dark dark:text-ternary-light"
 				>
-					{{ projectInfo.technologies[0].techs.join(', ') }}
+					{{ infos.technologies[0].techs.join(', ') }}
 				</p>
 			</div>
 
@@ -78,11 +77,11 @@ export default {
 				<p
 					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
 				>
-					{{ projectInfo.socialSharingsHeading }}
+					{{ infos.socialSharingsHeading }}
 				</p>
 				<div class="flex items-center gap-3 mt-5">
 					<a
-						v-for="social in projectInfo.socialSharings"
+						v-for="social in infos.socialSharings"
 						:key="social.id"
 						:href="social.url"
 						target="__blank"
@@ -102,10 +101,10 @@ export default {
 			<p
 				class="font-general-medium text-primary-dark dark:text-primary-light text-2xl font-bold mb-7"
 			>
-				{{ projectInfo.projectDetailsHeading }}
+				{{ infos.projectDetailsHeading }}
 			</p>
 			<p
-				v-for="projectDetail in projectInfo.projectDetails"
+				v-for="projectDetail in infos.projectDetails"
 				:key="projectDetail.id"
 				class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
 			>
