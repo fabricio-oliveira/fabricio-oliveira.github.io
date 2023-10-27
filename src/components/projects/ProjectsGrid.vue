@@ -32,7 +32,6 @@ export default {
 				let category =
 					item.category.charAt(0).toUpperCase() +
 					item.category.slice(1);
-				console.log(category);
 				return category.includes(this.selectedCategory);
 			});
 		},

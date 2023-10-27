@@ -3,6 +3,8 @@ import feather from 'feather-icons';
 import AppHeader from './components/shared/AppHeader';
 import AppFooter from './components/shared/AppFooter';
 
+
+
 export default {
 	components: {
 		AppHeader,
