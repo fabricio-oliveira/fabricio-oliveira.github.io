@@ -11,7 +11,7 @@ export default {
 			feedbackTitle: 'Positive feedback',
 			projectsTitle: 'Projects completed',
 		};
-	},
+	}
 };
 </script>
 
@@ -29,7 +29,6 @@ export default {
 					:endAmount="12"
 					:duration="1"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 					aria-label="About Status Counter"
 				/>
@@ -49,7 +48,6 @@ export default {
 					:duration="1"
 					suffix="k+"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
@@ -67,7 +65,6 @@ export default {
 					:duration="1"
 					suffix="%"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
@@ -85,7 +82,6 @@ export default {
 					:endAmount="77"
 					:duration="1"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
