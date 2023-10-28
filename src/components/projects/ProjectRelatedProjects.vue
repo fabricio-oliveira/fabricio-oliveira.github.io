@@ -1,6 +1,11 @@
 <script>
+import ProjectsData from '../../data/projects'
+
 export default {
-	props: ['relatedProject'],
+	props: ['relatedProject', 'category','id'],
+	data: function () {
+		return {relatedProjects: ProjectsData.filter((p) => p.category == this.category && p.id != this.id)}
+	}
 };
 </script>
 

@@ -4,14 +4,13 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Gomysql',
 		category: 'Code snippet',
 		img: require('@/assets/images/web-project-2.jpg'),
 		url: "https://github.com/fabricio-oliveira/gomysql",
 		header: {
-			title: 'Project Management UI',
-			date: 'Jul 26, 2021',
-			tag: 'UI / Frontend',
+			title: 'gomysql',
+			date: 'Aug 19, 2016',
+			tag: 'API',
 		},
 		images: [
 			{
@@ -31,66 +30,39 @@ const projects = [
 			},
 		],
 		infos: {
-			clientHeading: 'About Client',
+			clientHeading: 'Project',
 			companyInfos: [
 				{
 					id: 1,
-					title: 'Name',
-					details: 'Company Ltd',
-				},
-				{
-					id: 2,
-					title: 'Services',
-					details: 'UI Design & Frontend Development',
+					title: 'Type',
+					details: 'Code Snippet',
 				},
 				{
 					id: 3,
-					title: 'Website',
-					details: 'https://company.com',
-				},
-				{
-					id: 4,
-					title: 'Phone',
-					details: '555 8888 888',
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/gomysql',
+					url: null,
 				},
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+				'A project created for educational purposes to study golang and the functioning of the sqlx library.',
 			technologies: [
 				{
 					title: 'Tools & Technologies',
 					techs: [
-						'HTML',
-						'CSS',
-						'JavaScript',
-						'Vue.js',
-						'TailwindCSS',
-						'AdobeXD',
+						'Go',
+						'MySQL',
+						'Markdown'
 					],
 				},
 			],
 			detailsHeading: 'Challenge',
-			details: [
+			detailsBody: [
 				{
 					id: 1,
-					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-				},
-				{
-					id: 2,
-					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-				},
-				{
-					id: 3,
-					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-				},
-				{
-					id: 4,
-					details:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					detail:
+						'A golang executable that connect a Mysql database to retrieve data from the table Person.',
 				},
 			],
 			socialSharingsHeading: 'Share This',
@@ -105,28 +77,6 @@ const projects = [
 		},
 		relatedProject: {
 			relatedProjectsHeading: 'Related Projects',
-			relatedProjects: [
-				{
-					id: 1,
-					title: 'Mobile UI',
-					img: require('@/assets/images/mobile-project-1.jpg'),
-				},
-				{
-					id: 2,
-					title: 'Web Application',
-					img: require('@/assets/images/web-project-1.jpg'),
-				},
-				{
-					id: 3,
-					title: 'UI Design',
-					img: require('@/assets/images/ui-project-2.jpg'),
-				},
-				{
-					id: 4,
-					title: 'Kabul Mobile App UI',
-					img: require('@/assets/images/mobile-project-2.jpg'),
-				},
-			],
 		},
 	},
 

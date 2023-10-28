@@ -13,7 +13,7 @@ export default {
 		<div>
 			<img
 				:src="project.img"
-				:alt="project.title"
+				:alt="project.header.title"
 				class="rounded-t-xl border-none"
 			/>
 		</div>
@@ -21,7 +21,7 @@ export default {
 			<p
 				class="font-general-semibold text-xl text-ternary-dark dark:text-ternary-light font-semibold mb-2"
 			>
-				{{ project.title }}
+				{{ project.header.title }}
 			</p>
 			<span
 				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light"
