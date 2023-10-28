@@ -10,7 +10,9 @@ export default {
 </script>
 
 <template>
-	<button>{{ title }}</button>
+	<button>
+		{{ title }}
+	</button>
 </template>
 
 <style lang="scss" scoped></style>

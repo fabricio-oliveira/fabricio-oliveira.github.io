@@ -2,7 +2,14 @@
 import Button from '../reusable/Button.vue';
 import FormInput from '../reusable/FormInput.vue';
 import FormTextarea from '../reusable/FormTextarea.vue';
-export default { components: { Button, FormInput, FormTextarea } };
+export default { 
+	components: { Button, FormInput, FormTextarea },
+	methods: {
+		alert(msg) {
+			alert(msg)
+		}
+	},
+};
 </script>
 
 <template>
@@ -29,8 +36,9 @@ export default { components: { Button, FormInput, FormTextarea } };
 					<Button
 						title="Send Message"
 						class="px-4 py-2.5 text-white tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg duration-500"
-						type="submit"
+						type="button"
 						aria-label="Send Message"
+						@click="() => alert('send a form')"
 					/>
 				</div>
 			</form>

@@ -25,7 +25,7 @@ export default {
 	<div>
 		<label
 			class="block mb-2 text-lg text-primary-dark dark:text-primary-light"
-			:for="label"
+			:for="inputIdentifier"
 			>{{ label }}</label
 		>
 		<input
@@ -39,6 +39,7 @@ export default {
 			v-bind="$attrs"
 			@input="$emit('update:val', $event.target.value)"
 			required
+			autocomplete="on"
 		/>
 	</div>
 </template>

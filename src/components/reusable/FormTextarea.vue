@@ -34,6 +34,7 @@ export default {
 			@input="$emit('update:val', $event.target.value)"
 			cols="14"
 			rows="6"
+			autocomplete="on"
 		></textarea>
 	</div>
 </template>

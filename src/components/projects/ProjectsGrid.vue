@@ -124,6 +124,7 @@ export default {
 						required=""
 						placeholder="Search Projects"
 						aria-label="Name"
+						autocomplete="on"
 					/>
 				</div>
 				<ProjectsFilter @filter="selectedCategory = $event" />
