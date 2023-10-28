@@ -31,12 +31,13 @@ export default {
 					>
 						<span>{{ info.title }}: </span>
 						<a
-							href="#"
+							:href="typeof info.url === 'undefined' ? '#' : info.details"
 							:class="
 								info.title == 'Website' || info.title == 'Phone'
 									? 'hover:underline cursor-pointer'
 									: ''
 							"
+							target="_blank"
 							aria-label="Project Website and Phone"
 							>{{ info.details }}</a
 						>
