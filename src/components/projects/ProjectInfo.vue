@@ -31,9 +31,9 @@ export default {
 					>
 						<span>{{ info.title }}: </span>
 						<a
-							:href="typeof info.url === 'undefined' ? '#' : info.details"
+							:href="typeof info.title === 'Github' ? '#' : info.details"
 							:class="
-								info.title == 'Website' || info.title == 'Phone'
+								info.title == 'Github'
 									? 'hover:underline cursor-pointer'
 									: ''
 							"

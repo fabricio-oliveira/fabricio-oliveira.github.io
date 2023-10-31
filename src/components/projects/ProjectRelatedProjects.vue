@@ -19,7 +19,7 @@ export default {
 			{{ relatedProject.relatedProjectsHeading }}
 		</p>
 
-		<div class="grid grid-cols-1 sm:grid-cols-4 gap-10">
+		<div class="grid grid-cols-1 sm:grid-cols-4 gap-10 ">
 			<div v-for="item in relatedProject.relatedProjects" :key="item.id">
 				<img
 					:src="item.img"

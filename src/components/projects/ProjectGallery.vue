@@ -7,7 +7,7 @@ export default {
 <template>
 	<div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
 		<div
-			class="mb-10 sm:mb-0"
+			class="mb-10 sm:mb-0 flex items-center"
 			v-for="image in images"
 			:key="image.id"
 		>

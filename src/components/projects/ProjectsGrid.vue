@@ -22,7 +22,7 @@ export default {
 			} else if (this.searchProject) {
 				return this.filterProjectsBySearch();
 			}
-			return this.projects;
+			return this.projects.reverse();
 		},
 	},
 	methods: {

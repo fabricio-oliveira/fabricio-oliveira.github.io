@@ -13,7 +13,7 @@ export default {
 				'Library',
 				'API',
 				'Infrastructure',
-				"Code snippet"
+				"Study Projects"
 			],
 		},
 	},
