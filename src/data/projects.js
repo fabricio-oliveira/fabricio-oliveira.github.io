@@ -15,17 +15,17 @@ const projects = [
 		images: [
 			{
 				id: 1,
-				title: 'Golang Project',
+				title: 'Golang',
 				img: require('@/assets/images/tech/golang-project-1.png'),
 			},
 			{
 				id: 2,
-				title: 'Mysql Database',
+				title: 'Mysql',
 				img: require('@/assets/images/tech/mysql-logo-1.jpeg'),
 			},
 			{
 				id: 3,
-				title: 'Learning project',
+				title: 'Learning',
 				img: require('@/assets/images/tech/studing-projects-1.png'),
 			},
 		],
@@ -35,7 +35,7 @@ const projects = [
 				{
 					id: 1,
 					title: 'Type',
-					details: 'Code Snippet',
+					details: 'Sample',
 				},
 				{
 					id: 2,
@@ -81,17 +81,17 @@ const projects = [
 		images: [
 			{
 				id: 1,
-				title: 'Ruby Project',
+				title: 'Ruby',
 				img: require('@/assets/images/tech/ruby-logo-1.png'),
 			},
 			{
 				id: 2,
-				title: 'Mysql Database',
+				title: 'Rails',
 				img: require('@/assets/images/tech/rails-logo-1.png'),
 			},
 			{
 				id: 3,
-				title: 'Code Snippet',
+				title: 'Gem',
 				img: require('@/assets/images/tech/ruby-logo-2.png'),
 			},
 		],
@@ -101,7 +101,7 @@ const projects = [
 				{
 					id: 1,
 					title: 'Type',
-					details: 'Code Snippet',
+					details: 'Library',
 				},
 				{
 					id: 2,
@@ -111,13 +111,14 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'A project created for educational purposes to study golang and the functioning of the sqlx library.',
+				'A library created in my free time and used in some of projects to reduce the healthcheck code created for each new rails project.',
 			technologies: [
 				{
 					title: 'Tools & Technologies',
 					techs: [
-						'Go',
-						'MySQL',
+						'Ruby',
+						'Rails',
+						'Gem',
 					],
 				},
 			],
@@ -126,7 +127,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A golang executable that connect a Mysql database to retrieve data from the table Person.',
+						'A ruby gem for rails to add some healthcheck endpoints in a rails application.',
 				},
 			],
 		},
@@ -147,12 +148,12 @@ const projects = [
 		images: [
 			{
 				id: 1,
-				title: 'Golang Project',
+				title: 'Golang',
 				img: require('@/assets/images/tech/golang-project-1.png'),
 			},
 			{
 				id: 2,
-				title: 'SQLite Database',
+				title: 'SQLite',
 				img: require('@/assets/images/tech/sqlite-logo-1.jpeg'),
 			},
 			{
@@ -167,23 +168,23 @@ const projects = [
 				{
 					id: 1,
 					title: 'Type',
-					details: 'Code Snippet',
+					details: 'Sample',
 				},
 				{
 					id: 2,
 					title: 'Github',
-					details: 'https://github.com/fabricio-oliveira/gomysql',
+					details: 'https://github.com/fabricio-oliveira/example-golang-api',
 				},
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'A project created for educational purposes to study golang and the functioning of the sqlx library.',
+				"I'm studying ways to organize packages in a Go (Golang) application.",
 			technologies: [
 				{
 					title: 'Tools & Technologies',
 					techs: [
 						'Go',
-						'MySQL',
+						'SQLite',
 					],
 				},
 			],
@@ -192,7 +193,74 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A golang executable that connect a Mysql database to retrieve data from the table Person.',
+						'A golang API sample organized by type.',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
+	{
+		id: 4,
+		category: 'Library',
+		img: require('@/assets/images/library-logo-1.png'),
+		url: "https://github.com/fabricio-oliveira/tp_record_optimistic",
+		header: {
+			title: 'tp_record_optimistic',
+			date: 'May 17, 2017',
+			tag: 'Library',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'Ruby',
+				img: require('@/assets/images/tech/ruby-logo-1.png'),
+			},
+			{
+				id: 2,
+				title: 'Rails',
+				img: require('@/assets/images/tech/rails-logo-1.png'),
+			},
+			{
+				id: 3,
+				title: 'Gem',
+				img: require('@/assets/images/tech/ruby-logo-2.png'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'Library',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/tp_record_optimistic',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				'A Ruby library (gem) that makes it possible to use optimistic uniqueness in "Active Record." This is achieved by capturing the unique constraint from the database.',
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Ruby',
+						'Rails',
+						'ActiveRecord',
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A Ruby gem for ActiveRecord that makes it possible to handle database errors related to uniqueness constraints.',
 				},
 			],
 		},
