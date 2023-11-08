@@ -111,7 +111,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'A library created in my free time and used in some of projects to reduce the healthcheck code created for each new rails project.',
+				'A library created to be used in some of projects to reduce the healthcheck code created for each new rails project.',
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -244,7 +244,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'A Ruby library (gem) that makes it possible to use optimistic uniqueness in "Active Record." This is achieved by capturing the unique constraint from the database.',
+				'A library created to improve the performance and accuracy of uniqueness validation of "Active Record" library.',
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -260,7 +260,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A Ruby gem for ActiveRecord that makes it possible to handle database errors related to uniqueness constraints.',
+						'A Ruby library (gem) that makes it possible to use optimistic uniqueness in "Active Record." This is achieved by capturing the unique constraint from the database.',
 				},
 			],
 		},

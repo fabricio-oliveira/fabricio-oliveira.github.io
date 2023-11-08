@@ -11,43 +11,43 @@ export default {
 			clients: [
 				{
 					id: 1,
-					title: 'Amazon',
-					img: require('@/assets/images/brands/amazon_gray.png'),
+					title: 'Superhuman',
+					img: require('@/assets/images/brands/superhuman_gray.png'),
 				},
 				{
 					id: 2,
-					title: 'Sony',
-					img: require('@/assets/images/brands/sony_gray.png'),
+					title: 'Buzzer',
+					img: require('@/assets/images/brands/buzzer_gray.png'),
 				},
 				{
 					id: 3,
-					title: 'Adidas',
-					img: require('@/assets/images/brands/adidas_gray.png'),
+					title: 'Jusbrasil',
+					img: require('@/assets/images/brands/jusbrasil_gray.png'),
 				},
 				{
 					id: 4,
-					title: 'FILA',
-					img: require('@/assets/images/brands/fila_gray.png'),
+					title: 'Route',
+					img: require('@/assets/images/brands/route_gray.jpeg'),
 				},
 				{
 					id: 5,
-					title: 'NB',
-					img: require('@/assets/images/brands/nb_gray.png'),
+					title: 'OLX',
+					img: require('@/assets/images/brands/olx_gray.png'),
 				},
 				{
 					id: 6,
-					title: 'SAMSUNG',
-					img: require('@/assets/images/brands/samsung_gray.png'),
+					title: 'M4U',
+					img: require('@/assets/images/brands/m4u_gray.png'),
 				},
 				{
 					id: 7,
-					title: 'CANON',
-					img: require('@/assets/images/brands/canon_gray.png'),
+					title: 'Globo.com',
+					img: require('@/assets/images/brands/globocom_gray.jpeg'),
 				},
 				{
 					id: 7,
 					title: 'PUMA',
-					img: require('@/assets/images/brands/puma_gray.png'),
+					img: require('@/assets/images/brands/mar_mil_gray.jpeg'),
 				},
 			],
 		};
