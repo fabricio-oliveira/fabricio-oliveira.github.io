@@ -18,7 +18,7 @@ export default {
 				},
 				{
 					id: 2,
-					name: 'fabricio@gmail.com',
+					name: 'fabricioque@gmail.com',
 					icon: 'mail',
 				},
 				{

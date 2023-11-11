@@ -11,7 +11,7 @@ export default {
 		<div class=" flex justify-center h-4/5 p-low-2">
 			<img :src="project.img" :alt="project.header.title" class="rounded-t-xl border-none" />
 		</div>
-		<div class="h-1/5 p-low-2 pt-2">
+		<div class="p-low-2 pt-2">
 			<p class="font-general-semibold text-xl text-ternary-dark dark:text-ternary-light font-semibold mb-2">
 				{{ project.header.title }}
 			</p>
