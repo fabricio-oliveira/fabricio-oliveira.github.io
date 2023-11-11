@@ -4,7 +4,7 @@ import ProjectHeader from '../components/projects/ProjectHeader.vue';
 import ProjectGallery from '../components/projects/ProjectGallery.vue';
 import ProjectInfo from '../components/projects/ProjectInfo.vue';
 import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
-import ProjectsData from '../data/projects'
+import opensourceData from '../data/openSource'
 
 
 export default {
@@ -16,7 +16,7 @@ export default {
 		ProjectRelatedProjects,
 	},
 	data: function() {
-		return ProjectsData.find((e) => e.id == this.$route.params.id)
+		return opensourceData.find((e) => e.id == this.$route.params.id)
 	},
 	mounted() {
 		feather.replace();

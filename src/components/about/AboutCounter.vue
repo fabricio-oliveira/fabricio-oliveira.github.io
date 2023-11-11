@@ -1,5 +1,8 @@
 <script>
 import counter from 'vue3-autocounter';
+import companies from '../../data/companies'
+import openSource from '../../data/openSource'
+
 export default {
 	components: {
 		counter,
@@ -7,9 +10,10 @@ export default {
 	data: () => {
 		return {
 			experienceTitle: 'Years of experience',
-			githubTitle: 'Stars on GitHub',
+			awsTitle: 'AWS years of experience',
 			feedbackTitle: 'Positive feedback',
 			projectsTitle: 'Projects completed',
+			projectsCompleted: companies.reduce((acc, {completedProjects}) => acc + completedProjects, 0) + openSource.length
 		};
 	}
 };
@@ -39,20 +43,20 @@ export default {
 				</span>
 			</div>
 
-			<!-- GitHub stars counter -->
+			<!-- AWS experience years -->
 			<div class="mb-20 sm:mb-0">
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="20"
+					:endAmount="6"
 					:duration="1"
-					suffix="k+"
+					suffix=""
 					:autoinit="true"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
 					class="block text-md text-ternary-dark dark:text-ternary-light"
-					>{{ githubTitle }}</span
+					>{{ awsTitle }}</span
 				>
 			</div>
 
@@ -79,7 +83,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="77"
+					:endAmount="this.projectsCompleted"
 					:duration="1"
 					:autoinit="true"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"

@@ -2,13 +2,13 @@
 import feather from 'feather-icons';
 import ProjectsFilter from './ProjectsFilter.vue';
 import ProjectSingle from './ProjectSingle.vue';
-import projects from '../../data/projects';
+import openSourceData from '../../data/openSource';
 
 export default {
 	components: { ProjectSingle, ProjectsFilter },
 	data: () => {
 		return {
-			projects,
+			projects: openSourceData,
 			projectsHeading: 'Projects Portfolio',
 			selectedCategory: '',
 			searchProject: '',

@@ -1,10 +1,10 @@
 <script>
-import ProjectsData from '../../data/projects'
+import openSourceData from '../../data/openSource'
 
 export default {
 	props: ['relatedProject', 'category','id'],
 	data: function () {
-		return {relatedProjects: ProjectsData.filter((p) => p.category == this.category && p.id != this.id)}
+		return {relatedProjects: openSourceData.filter((p) => p.category == this.category && p.id != this.id)}
 	}
 };
 </script>
