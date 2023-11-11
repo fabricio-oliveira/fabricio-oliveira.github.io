@@ -70,6 +70,67 @@ const projects = [
 	},
 	{
 		id: 2,
+		category: 'Study Projects',
+		img: require('@/assets/images/github-code-1.jpeg'),
+		url: "https://github.com/fabricio-oliveira/simple-rails-app",
+		header: {
+			title: 'simple rails app',
+			date: 'Nov 5, 2016',
+			tag: 'Study Projects',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'Ruby',
+				img: require('@/assets/images/tech/ruby-logo-1.png'),
+			},
+			{
+				id: 2,
+				title: 'Mysql',
+				img: require('@/assets/images/tech/rails-logo-1.png'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'Sample',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/simple-rails-app',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				'A project created for educational purposes to study rails framework.',
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Ruby',
+						'Rail',
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A RoR project that was created as project of conclusion of curse at coursera',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
+	{
+		id: 3,
 		category: 'Library',
 		img: require('@/assets/images/library-logo-1.png'),
 		url: "https://github.com/fabricio-oliveira/tp_healthcheck",
@@ -136,7 +197,7 @@ const projects = [
 		},
 	},
 	{
-		id: 3,
+		id: 4,
 		category: 'Study Projects',
 		img: require('@/assets/images/github-code-1.jpeg'),
 		url: "https://github.com/fabricio-oliveira/example-golang-api",
@@ -202,7 +263,7 @@ const projects = [
 		},
 	},
 	{
-		id: 4,
+		id: 5,
 		category: 'Library',
 		img: require('@/assets/images/library-logo-1.png'),
 		url: "https://github.com/fabricio-oliveira/tp_record_optimistic",
