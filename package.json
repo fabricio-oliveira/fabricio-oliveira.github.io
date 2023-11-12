@@ -5,7 +5,7 @@
   "homepage": "https://fabricio-oliveira.github.io/",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && cp ./dist/index.html ./dist/404.html",
     "lint": "vue-cli-service lint",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
