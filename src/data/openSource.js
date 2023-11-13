@@ -4,7 +4,7 @@
 const projects = [
 	{
 		id: 1,
-		category: 'Study Projects',
+		categories: ['Study Projects'],
 		img: require('@/assets/images/github-code-1.jpeg'),
 		url: "https://github.com/fabricio-oliveira/gomysql",
 		header: {
@@ -70,7 +70,7 @@ const projects = [
 	},
 	{
 		id: 2,
-		category: 'Study Projects',
+		categories: ['Study Projects'],
 		img: require('@/assets/images/github-code-1.jpeg'),
 		url: "https://github.com/fabricio-oliveira/simple-rails-app",
 		header: {
@@ -131,7 +131,7 @@ const projects = [
 	},
 	{
 		id: 3,
-		category: 'Library',
+		categories: ['Library'],
 		img: require('@/assets/images/library-logo-1.png'),
 		url: "https://github.com/fabricio-oliveira/tp_healthcheck",
 		header: {
@@ -198,7 +198,7 @@ const projects = [
 	},
 	{
 		id: 4,
-		category: 'Study Projects',
+		categories: ['Study Projects'],
 		img: require('@/assets/images/github-code-1.jpeg'),
 		url: "https://github.com/fabricio-oliveira/example-golang-api",
 		header: {
@@ -264,7 +264,7 @@ const projects = [
 	},
 	{
 		id: 5,
-		category: 'Library',
+		categories: ['Library'],
 		img: require('@/assets/images/library-logo-1.png'),
 		url: "https://github.com/fabricio-oliveira/tp_record_optimistic",
 		header: {

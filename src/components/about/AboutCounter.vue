@@ -13,7 +13,7 @@ export default {
 			awsTitle: 'AWS years of experience',
 			feedbackTitle: 'Positive feedback',
 			projectsTitle: 'Projects completed',
-			projectsCompleted: companies.reduce((acc, {completedProjects}) => acc + completedProjects, 0) + openSource.length
+			projectsCompleted: companies.reduce((acc, {completedProjects}) => acc + completedProjects.length, 0) + openSource.length
 		};
 	}
 };

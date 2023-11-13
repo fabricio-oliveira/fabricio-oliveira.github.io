@@ -29,10 +29,11 @@ export default {
 		// Filter projects by category
 		filterProjectsByCategory() {
 			return this.projects.filter((item) => {
-				let category =
-					item.category.charAt(0).toUpperCase() +
-					item.category.slice(1);
-				return category.includes(this.selectedCategory);
+				let categories = item.categories.map((category) => (
+					category.charAt(0).toUpperCase() +
+					category.slice(1)
+				))
+				return categories.includes(this.selectedCategory);
 			});
 		},
 		// Filter projects by title search

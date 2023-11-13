@@ -2,42 +2,53 @@ const companies = [
 	{
 		id: 1,
 		name: 'STI',
-		completedProjects: 1
+		completedProjects: [
+			{name: "IdUFF"}
+		],
 	},
 	{
 		id: 2,
 		name: 'Marinha',
-		completedProjects: 1
+		completedProjects: [
+			{name: "controle de estoque"}
+		],
 	},
 	{
 		id: 3,
 		name: 'globo.com',
-		completedProjects: 6
+		completedProjects: [
+			{ name: "email authentication"},
+			{ name: "email provider"},
+			{ name: "SNS router"},
+			{ name: "ISP Vitrine"},
+			{ name: "Cartola Pro"},
+			{ name: "Assinatura Online Plataforma"},
+		],
 	},
 	{
 		id: 4,
 		name: 'M4U',
-		completedProjects: 8
+		completedProjects: Array(8).fill({})
 	},
 	{
 		id: 5,
 		name: 'OLX',
-		completedProjects: 9
+		completedProjects: Array(9).fill({})
 	},
 	{
 		id: 6,
 		name: 'Route',
-		completedProjects: 7
+		completedProjects: Array(7).fill({})
 	},
 	{
 		id: 7,
 		name: 'Buzzer',
-		completedProjects: 3
+		completedProjects: Array(3).fill({})
 	},
 	{
 		id: 8,
 		name: 'Superhuman',
-		completedProjects: 4
+		completedProjects: Array(4).fill({})
 	}
 
 ];
