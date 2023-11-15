@@ -71,7 +71,7 @@ const projects = [
 	{
 		id: 2,
 		categories: ['Study Projects'],
-		img: require('@/assets/images/github-code-1.jpeg'),
+		img: require('@/assets/images/projects/simple-rails-app.png'),
 		url: "https://github.com/fabricio-oliveira/simple-rails-app",
 		header: {
 			title: 'simple rails app',
@@ -88,6 +88,11 @@ const projects = [
 				id: 2,
 				title: 'Mysql',
 				img: require('@/assets/images/tech/rails-logo-1.png'),
+			},
+			{
+				id: 3,
+				title: 'screenshot',
+				img: require('@/assets/images/projects/simple-rails-app.png'),
 			},
 		],
 		infos: {
