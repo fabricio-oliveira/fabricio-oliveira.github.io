@@ -334,6 +334,72 @@ const projects = [
 			relatedProjectsHeading: 'Related Projects',
 		},
 	},
+	{
+		id: 6,
+		categories: ['Study Projects'],
+		img: require('@/assets/images/github-code-1.jpeg'),
+		url: "https://github.com/fabricio-oliveira/other_go_program",
+		header: {
+			title: 'other golang api',
+			date: 'Aug 11, 2017',
+			tag: 'Study Projects',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'Golang',
+				img: require('@/assets/images/tech/golang-project-1.png'),
+			},
+			{
+				id: 2,
+				title: 'SQLite',
+				img: require('@/assets/images/tech/sqlite-logo-1.jpeg'),
+			},
+			{
+				id: 3,
+				title: 'Learning project',
+				img: require('@/assets/images/tech/studing-projects-1.png'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'Sample',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/other_go_program',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				"I'm studying ways to organize packages in a Go (Golang) application.",
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Go',
+						'SQLite',
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A golang API sample organized by features.',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
 ];
 
 export default projects;
