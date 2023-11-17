@@ -74,7 +74,7 @@ const projects = [
 		img: require('@/assets/images/projects/simple-rails-app.png'),
 		url: "https://github.com/fabricio-oliveira/simple-rails-app",
 		header: {
-			title: 'simple rails app',
+			title: 'simple Ruby on Rails application',
 			date: 'Nov 5, 2016',
 			tag: 'Study Projects',
 		},
@@ -126,7 +126,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A RoR project that was created as project of conclusion of curse at coursera',
+						'A RoR project that was created as a course completion project on Coursera. It is an application that retrieves culinary recipes given a keyword.',
 				},
 			],
 		},
