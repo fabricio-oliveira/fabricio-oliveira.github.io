@@ -468,6 +468,79 @@ const projects = [
 			relatedProjectsHeading: 'Related Projects',
 		},
 	},
+	{
+		id: 8,
+		categories: ['Study Projects'],
+		img: require('@/assets/images/github-code-1.jpeg'),
+		url: "https://github.com/fabricio-oliveira/FinancialAPI",
+		header: {
+			title: 'Financial API',
+			date: 'Jul 22, 2018',
+			tag:  'Study Projects, C#, API, MS SQL, RabbitMQ',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'C#',
+				img: require('@/assets/images/tech/c-sharp-logo-1.jpeg'),
+			},
+			{
+				id: 2,
+				title: 'RabbitMQ',
+				img: require('@/assets/images/tech/rabbitmq-logo-1.jpeg'),
+			},
+			{
+				id: 3,
+				title: 'docker',
+				img: require('@/assets/images/tech/docker-logo-1.png'),
+			},
+			{
+				id: 4,
+				title: 'MS SQL',
+				img: require('@/assets/images/tech/ms-sql-logo-1.jpeg'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'Sample',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/other_go_program',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				"An API created in C# to handle financial services",
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'C#',
+						'Rabbit MQ',
+						'MS sql',
+						'Docker'
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A golang API sample organized by features.',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
 ];
 
 export default projects;
