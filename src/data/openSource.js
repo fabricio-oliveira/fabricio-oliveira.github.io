@@ -10,7 +10,7 @@ const projects = [
 		header: {
 			title: 'gomysql',
 			date: 'Aug 19, 2016',
-			tag: 'Study Projects',
+			tag: 'Study Projects, Go, Code Snippet',
 		},
 		images: [
 			{
@@ -76,7 +76,7 @@ const projects = [
 		header: {
 			title: 'simple Ruby on Rails application',
 			date: 'Nov 5, 2016',
-			tag: 'Study Projects',
+			tag: 'Study Projects, Rails, Ruby',
 		},
 		images: [
 			{
@@ -142,7 +142,7 @@ const projects = [
 		header: {
 			title: 'tp_healthcheck',
 			date: 'Feb 21, 2017',
-			tag: 'Library',
+			tag: 'Library, Rails, Ruby, Healcheck',
 		},
 		images: [
 			{
@@ -209,7 +209,7 @@ const projects = [
 		header: {
 			title: 'example golang api',
 			date: 'Mar 7, 2017',
-			tag: 'Study Projects',
+			tag: 'Study Projects, Go, API, Static Server, SQLite',
 		},
 		images: [
 			{
@@ -275,7 +275,7 @@ const projects = [
 		header: {
 			title: 'tp_record_optimistic',
 			date: 'May 17, 2017',
-			tag: 'Library',
+			tag: 'Library, Rails, Ruby, ActiveRecord',
 		},
 		images: [
 			{
@@ -342,7 +342,7 @@ const projects = [
 		header: {
 			title: 'other golang api',
 			date: 'Aug 11, 2017',
-			tag: 'Study Projects',
+			tag:  'Study Projects, Go, API, SQLite3',
 		},
 		images: [
 			{
@@ -393,6 +393,74 @@ const projects = [
 					id: 1,
 					detail:
 						'A golang API sample organized by features.',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
+	{
+		id: 7,
+		categories: ['Library'],
+		img: require('@/assets/images/github-code-1.jpeg'),
+		url: "https://github.com/fabricio-oliveira/tp_cached_record",
+		header: {
+			title: 'tp cache record',
+			date: 'Jun 24, 2018',
+			tag: 'Library, Rails, Ruby, ActiveRecord, Redis',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'Ruby',
+				img: require('@/assets/images/tech/ruby-logo-1.png'),
+			},
+			{
+				id: 2,
+				title: 'Rails',
+				img: require('@/assets/images/tech/rails-logo-1.png'),
+			},
+			{
+				id: 3,
+				title: 'Redis',
+				img: require('@/assets/images/tech/redis-logo-1.png'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'Library',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/tp_cached_record',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				'A library created to improve "Active Record" performance cacnhing some data.',
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Ruby',
+						'Rails',
+						'ActiveRecord',
+						'Redis'
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A Ruby library (gem) that makes it possible to use optimistic uniqueness in "Active Record." This is achieved by capturing the unique constraint from the database.',
 				},
 			],
 		},
