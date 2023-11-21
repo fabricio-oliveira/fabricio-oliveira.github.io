@@ -533,7 +533,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A golang API sample organized by features.',
+						'A C# API projectn to handle financial services.',
 				},
 			],
 		},
