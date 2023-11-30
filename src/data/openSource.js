@@ -541,6 +541,74 @@ const projects = [
 			relatedProjectsHeading: 'Related Projects',
 		},
 	},
+	{
+		id: 9,
+		categories: ['Study Projects', 'Mobile Application'],
+		img: require('@/assets/images/projects/firebase-chat.png'),
+		url: "https://github.com/fabricio-oliveira/firebase-chat",
+		header: {
+			title: 'Firebase chat',
+			date: 'Sep 28, 2018',
+			tag:  'Study Projects, Kotlin, Mobile, Android, Firebase',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'Kotlin',
+				img: require('@/assets/images/tech/kotlin-logo-1.jpeg'),
+			},
+			{
+				id: 2,
+				title: 'Android',
+				img: require('@/assets/images/tech/android-logo-1.png'),
+			},
+			{
+				id: 3,
+				title: 'firebase',
+				img: require('@/assets/images/tech/firebase-logo-1.png'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'Sample',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/firebase-chat',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				"An chat app fro android created in kotlin with firebase realtime database",
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Kotlin',
+						'Android',
+						'Gradle',
+						'Firebase'
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A study of case of firebase realtime database',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
 ];
 
 export default projects;
