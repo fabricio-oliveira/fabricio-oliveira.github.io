@@ -61,7 +61,8 @@ export default {
 	},
 	methods: {
 		updateTheme(theme) {
-			this.theme = theme;
+			localStorage.setItem('theme', theme);
+			this.$router.go();
 		},
 		showModal() {
 			if (this.modal) {
