@@ -78,7 +78,6 @@ export default {
 											class="w-full px-5 py-3 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
 											id="project"
 											name="project"
-											type="text"
 											required=""
 											aria-label="Project Category"
 										>

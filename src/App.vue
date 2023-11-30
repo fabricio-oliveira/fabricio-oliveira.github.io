@@ -10,6 +10,10 @@ export default {
 		AppHeader,
 		AppFooter,
 	},
+	computed: {
+		console: () => console,
+		window: () => window,
+	},
 	data: () => {
 		return {
 			appTheme: localStorage.getItem('theme'),
