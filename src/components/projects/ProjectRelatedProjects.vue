@@ -2,9 +2,9 @@
 import openSourceData from '../../data/openSource'
 
 export default {
-	props: ['relatedProject', 'category','id'],
+	props: ['relatedProject', 'categories','id'],
 	data: function () {
-		return {relatedProjects: openSourceData.filter((p) => p.categories.includes(this.category)  && p.id != this.id)}
+		return {relatedProjects: openSourceData.filter((p) => p.categories.includes(this.categories)  && p.id != this.id)}
 	}
 };
 </script>

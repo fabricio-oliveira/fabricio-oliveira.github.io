@@ -40,7 +40,10 @@ export default {
 		<ProjectInfo :infos="infos" />
 
 		<!-- Project related projects -->
-		<ProjectRelatedProjects :category="category" :id="this.$route.params.id" :relatedProject="relatedProject" />
+		<ProjectRelatedProjects 
+			:categories="categories"
+			:id="this.$route.params.id"
+			:relatedProject="relatedProject" />
 	</div>
 </template>
 
