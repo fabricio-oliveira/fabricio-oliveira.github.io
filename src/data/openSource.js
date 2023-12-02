@@ -140,7 +140,7 @@ const projects = [
 		img: require('@/assets/images/library-logo-1.png'),
 		url: "https://github.com/fabricio-oliveira/tp_healthcheck",
 		header: {
-			title: 'tp_healthcheck',
+			title: 'tp healthcheck',
 			date: 'Feb 21, 2017',
 			tag: 'Library, Rails, Ruby, Healcheck',
 		},
@@ -273,7 +273,7 @@ const projects = [
 		img: require('@/assets/images/library-logo-1.png'),
 		url: "https://github.com/fabricio-oliveira/tp_record_optimistic",
 		header: {
-			title: 'tp_record_optimistic',
+			title: 'tp optimistic lock',
 			date: 'May 17, 2017',
 			tag: 'Library, Rails, Ruby, ActiveRecord',
 		},
@@ -403,7 +403,7 @@ const projects = [
 	{
 		id: 7,
 		categories: ['Library'],
-		img: require('@/assets/images/github-code-1.jpeg'),
+		img: require('@/assets/images/library-logo-1.png'),
 		url: "https://github.com/fabricio-oliveira/tp_cached_record",
 		header: {
 			title: 'tp cache record',
