@@ -92,7 +92,7 @@ const projects = [
 			{
 				id: 3,
 				title: 'screenshot',
-				img: require('@/assets/images/projects/simple-rails-app.png'),
+				img: require('@/assets/images/tech/ruby-logo-2.png'),
 			},
 		],
 		infos: {
