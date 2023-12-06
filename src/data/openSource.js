@@ -506,7 +506,7 @@ const projects = [
 				{
 					id: 1,
 					title: 'Type',
-					details: 'Sample',
+					details: 'API',
 				},
 				{
 					id: 2,
@@ -574,7 +574,7 @@ const projects = [
 				{
 					id: 1,
 					title: 'Type',
-					details: 'Sample',
+					details: 'Android APP',
 				},
 				{
 					id: 2,
@@ -602,6 +602,73 @@ const projects = [
 					id: 1,
 					detail:
 						'A study of case of firebase realtime database',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
+	{
+		id: 10,
+		categories: ['API', 'Study Projects'],
+		img: require('@/assets/images/github-code-1.jpeg'),
+		url: "https://github.com/fabricio-oliveira/crud-service-golang",
+		header: {
+			title: 'CRUD in go',
+			date: 'Aug 31, 2022',
+			tag:  'Study Projects, golang, API, backend, dynamoDB',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'Go',
+				img: require('@/assets/images/tech/golang-project-1.png'),
+			},
+			{
+				id: 2,
+				title: 'DynamoDB',
+				img: require('@/assets/images/tech/dynamo-db-logo-1.png'),
+			},
+			{
+				id: 3,
+				title: 'Learning',
+				img: require('@/assets/images/tech/studing-projects-1.png'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'API',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/firebase-chat',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				"A simple way to use dynamoDB to create a CRUD. ",
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Go',
+						'Docker',
+						'DynamoDB'
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A study of case of dynamoDB',
 				},
 			],
 		},
