@@ -70,7 +70,7 @@ const projects = [
 	},
 	{
 		id: 2,
-		categories: ['Study Projects'],
+		categories: ['Web Application', 'Study Projects'],
 		img: require('@/assets/images/projects/simple-rails-app.png'),
 		url: "https://github.com/fabricio-oliveira/simple-rails-app",
 		header: {
@@ -203,7 +203,7 @@ const projects = [
 	},
 	{
 		id: 4,
-		categories: ['Study Projects'],
+		categories: ['API','Study Projects'],
 		img: require('@/assets/images/github-code-1.jpeg'),
 		url: "https://github.com/fabricio-oliveira/example-golang-api",
 		header: {
@@ -336,7 +336,7 @@ const projects = [
 	},
 	{
 		id: 6,
-		categories: ['Study Projects'],
+		categories: ['API','Study Projects'],
 		img: require('@/assets/images/github-code-1.jpeg'),
 		url: "https://github.com/fabricio-oliveira/other_go_program",
 		header: {
@@ -470,7 +470,7 @@ const projects = [
 	},
 	{
 		id: 8,
-		categories: ['Study Projects'],
+		categories: ['API', 'Study Projects'],
 		img: require('@/assets/images/github-code-1.jpeg'),
 		url: "https://github.com/fabricio-oliveira/FinancialAPI",
 		header: {
@@ -543,7 +543,7 @@ const projects = [
 	},
 	{
 		id: 9,
-		categories: ['Study Projects', 'Mobile Application'],
+		categories: ['Mobile Application', 'Study Projects'],
 		img: require('@/assets/images/projects/firebase-chat.png'),
 		url: "https://github.com/fabricio-oliveira/firebase-chat",
 		header: {
