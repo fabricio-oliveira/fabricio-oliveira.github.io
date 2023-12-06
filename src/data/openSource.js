@@ -74,7 +74,7 @@ const projects = [
 		img: require('@/assets/images/projects/simple-rails-app.png'),
 		url: "https://github.com/fabricio-oliveira/simple-rails-app",
 		header: {
-			title: 'simple Ruby on Rails application',
+			title: 'ruby on rails recipe catalog',
 			date: 'Nov 5, 2016',
 			tag: 'Study Projects, Rails, Ruby',
 		},
