@@ -742,6 +742,73 @@ const projects = [
 			relatedProjectsHeading: 'Related Projects',
 		},
 	},
+	{
+		id: 12,
+		categories: ['API', 'Study Projects'],
+		img: require('@/assets/images/github-code-1.jpeg'),
+		url: "https://github.com/fabricio-oliveira/graphql-service",
+		header: {
+			title: 'GraphQL service',
+			date: 'May 29, 2023',
+			tag:  'Study Projects, Node, API, backend, GraphQL, JS',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'Python',
+				img: require('@/assets/images/tech/js-logo-1.png'),
+			},
+			{
+				id: 2,
+				title: 'GraphQL',
+				img: require('@/assets/images/tech/graphql-logo-1.png'),
+			},
+			{
+				id: 3,
+				title: 'Learning',
+				img: require('@/assets/images/tech/studing-projects-1.png'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'API',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/graphql-service',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				"A case study on designing an API using GraphQL",
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'JavaScript',
+						'GraphQl',
+						'Node'
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A case study on GraphQL.',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
 ];
 
 export default projects;
