@@ -676,6 +676,72 @@ const projects = [
 			relatedProjectsHeading: 'Related Projects',
 		},
 	},
+	{
+		id: 11,
+		categories: ['API', 'Study Projects'],
+		img: require('@/assets/images/github-code-1.jpeg'),
+		url: "https://github.com/fabricio-oliveira/grpc-service",
+		header: {
+			title: 'GRPC service',
+			date: 'May 31, 2023',
+			tag:  'Study Projects, Python, API, backend, GRPC',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'Python',
+				img: require('@/assets/images/tech/python-logo-1.png'),
+			},
+			{
+				id: 2,
+				title: 'GRPC',
+				img: require('@/assets/images/tech/grpc-logo-1.png'),
+			},
+			{
+				id: 3,
+				title: 'Learning',
+				img: require('@/assets/images/tech/studing-projects-1.png'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'API',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/grpc-service',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				"A case study on designing an API using gRPC.",
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Python',
+						'GRPC'
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A case study on GRPC.',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
 ];
 
 export default projects;
