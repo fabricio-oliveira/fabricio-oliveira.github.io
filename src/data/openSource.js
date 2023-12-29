@@ -45,7 +45,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'A project created for educational purposes to study golang and the functioning of the sqlx library.',
+				'A project created for educational purposes to explore Golang and understand the functionality of the sqlx library.',
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -60,7 +60,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A golang executable that connect a Mysql database to retrieve data from the table Person.',
+						"A Golang executable designed to connect to a MySQL database and retrieve data from the 'Person' table.",
 				},
 			],
 		},
@@ -111,7 +111,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'A project created for educational purposes to study rails framework.',
+				'A project created for educational purposes to explore the Rails framework.',
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -126,7 +126,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A RoR project that was created as a course completion project on Coursera. It is an application that retrieves culinary recipes given a keyword.',
+						'A Ruby on Rails (RoR) project developed as a course completion assignment on Coursera. The application retrieves culinary recipes based on a given keyword.',
 				},
 			],
 		},
@@ -177,7 +177,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'A library created to be used in some of projects to reduce the healthcheck code created for each new rails project.',
+				'A library created for use in various projects to streamline the health check code, reducing the need to recreate it for each new Rails project.',
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -193,7 +193,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A ruby gem for rails to add some healthcheck endpoints in a rails application.',
+						'A Ruby gem for Rails designed to add health check endpoints to a Rails application.',
 				},
 			],
 		},
@@ -244,7 +244,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				"I'm studying ways to organize packages in a Go (Golang) application.",
+				"I'm exploring different methods to organize packages in a Go (Golang) application.",
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -259,7 +259,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A golang API sample organized by type.',
+						'A Golang API sample organized by type.',
 				},
 			],
 		},
@@ -310,7 +310,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'A library created to improve the performance and accuracy of uniqueness validation of "Active Record" library.',
+				"A library created to enhance the performance and accuracy of the uniqueness validation in the 'Active Record' library.",
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -326,7 +326,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A Ruby library (gem) that makes it possible to use optimistic uniqueness in "Active Record." This is achieved by capturing the unique constraint from the database.',
+						"A Ruby library (gem) enabling the use of optimistic uniqueness in 'Active Record' by capturing the unique constraint from the database.",
 				},
 			],
 		},
@@ -377,7 +377,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				"I'm studying ways to organize packages in a Go (Golang) application.",
+				"I'm exploring methods for organizing packages in a Go (Golang) application.",
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -392,7 +392,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A golang API sample organized by features.',
+						'A Golang API sample organized by features.',
 				},
 			],
 		},
@@ -443,7 +443,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				'A library created to improve "Active Record" performance cacnhing some data.',
+				"A library created to enhance the performance of 'Active Record' by caching some data.",
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -460,7 +460,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A Ruby library (gem) that makes it possible to use optimistic uniqueness in "Active Record." This is achieved by capturing the unique constraint from the database.',
+						"A Ruby library (gem) enabling the use of optimistic uniqueness in 'Active Record' by capturing the unique constraint from the database.",
 				},
 			],
 		},
@@ -516,7 +516,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				"An API created in C# to handle financial services",
+				"An API developed in C# to manage financial services.",
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -533,7 +533,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A C# API projectn to handle financial services.',
+						'A C# API project designed to handle financial services.',
 				},
 			],
 		},
@@ -652,7 +652,7 @@ const projects = [
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
-				"A simple way to use dynamoDB to create a CRUD. ",
+				"A straightforward approach to implementing CRUD operations using DynamoDB.",
 			technologies: [
 				{
 					title: 'Tools & Technologies',
@@ -668,7 +668,7 @@ const projects = [
 				{
 					id: 1,
 					detail:
-						'A study of case of dynamoDB',
+						'A case study on DynamoDB.',
 				},
 			],
 		},
