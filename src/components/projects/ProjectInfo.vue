@@ -32,8 +32,8 @@ export default {
 						<span>{{ info.title }}: </span>
 						
 						<a
-							v-if="info.title == 'Github'"
-							:href="typeof info.title === 'Github' ? '#' : info.details"
+							v-if="info.details.startsWith('http')"
+							:href="info.details"
 							:class="'hover:underline cursor-pointer'"
 							target="_blank"
 							>{{ info.details }}</a
