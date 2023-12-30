@@ -809,6 +809,79 @@ const projects = [
 			relatedProjectsHeading: 'Related Projects',
 		},
 	},
+	{
+		id: 13,
+		categories: ['Web Application', 'API', 'Study Projects'],
+		img: require('@/assets/images/projects/ws-chat.png'),
+		url: "https://github.com/fabricio-oliveira/webchat-ws",
+		header: {
+			title: 'Webchat WS',
+			date: 'July 29, 2023',
+			tag:  'Study Projects, ReactJS, API, backend, Go, JS, WebSocket',
+		},
+		images: [
+			{
+				id: 1,
+				title: 'ReactJS',
+				img: require('@/assets/images/tech/react-logo-1.png'),
+			},
+			{
+				id: 2,
+				title: 'Go',
+				img: require('@/assets/images/tech/golang-project-1.png'),
+			},
+			{
+				id: 3,
+				title: 'Learning',
+				img: require('@/assets/images/tech/websocket-projects-1.png'),
+			},
+		],
+		infos: {
+			clientHeading: 'Project',
+			companyInfos: [
+				{
+					id: 1,
+					title: 'Type',
+					details: 'API',
+				},
+				{
+					id: 2,
+					title: 'Github',
+					details: 'https://github.com/fabricio-oliveira/webchat-ws',
+				},
+				{
+					id: 3,
+					title: 'Demo',
+					details: 'https://webchat-ws-front.onrender.com/',
+				},
+			],
+			objectivesHeading: 'Objective',
+			objectivesDetails:
+				"A webchat using websocket",
+			technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'JavaScript',
+						'ReactJS',
+						'Go',
+						'WebSocket',
+					],
+				},
+			],
+			detailsHeading: 'Challenge',
+			detailsBody: [
+				{
+					id: 1,
+					detail:
+						'A web chat application was created to show my knowledge about Websocket.	',
+				},
+			],
+		},
+		relatedProject: {
+			relatedProjectsHeading: 'Related Projects',
+		},
+	},
 ];
 
 export default projects;
