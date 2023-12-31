@@ -782,6 +782,11 @@ const projects = [
 					title: 'Github',
 					details: 'https://github.com/fabricio-oliveira/graphql-service',
 				},
+				{
+					id: 3,
+					title: 'Demo',
+					details: 'https://graphql-service-rbx8.onrender.com/graphql'
+				}
 			],
 			objectivesHeading: 'Objective',
 			objectivesDetails:
